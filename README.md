@@ -1,5 +1,7 @@
 ## Example of a Grails API application
 
+- Grails 2.4.4
+
 **Demonstrates the following concepts:**
 
 - Spring Security
@@ -27,6 +29,7 @@
 
 ## TODO
 
+- Upgrade to Grails 3.0
 - API Blueprint
 
 ## Getting set up
