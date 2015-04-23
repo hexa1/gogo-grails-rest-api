@@ -81,7 +81,7 @@ grails.project.dependency.resolution = {
     // Don't upgrade to 1.1.6, errors with current grails version!
     runtime ':cors:1.1.5'
     // Spring Security includes cors plugin 1.1.6, don't use it
-    compile ":spring-security-rest:1.4.1.RC2", {
+    compile ":spring-security-rest:1.5.0.RC4", {
       exclude 'cors'
     }
   }
