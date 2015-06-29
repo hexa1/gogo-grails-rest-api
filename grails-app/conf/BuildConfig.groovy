@@ -57,7 +57,7 @@ grails.project.dependency.resolution = {
   plugins {
     // plugins for the build system only
     //build  ':tomcat:7.0.55'
-    build ':jetty:3.0.0'
+    provided ':jetty:3.0.0'
 
     // plugins for the compile step
     // compile ':scaffolding:2.1.2'
@@ -81,7 +81,8 @@ grails.project.dependency.resolution = {
     // Don't upgrade to 1.1.6, errors with current grails version!
     runtime ':cors:1.1.5'
     // Spring Security includes cors plugin 1.1.6, don't use it
-    compile ":spring-security-rest:1.5.0.RC4", {
+    // TODO upgrade me
+    compile ":spring-security-rest:1.4.1.RC2", {
       exclude 'cors'
     }
   }

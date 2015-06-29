@@ -30,6 +30,7 @@
 ## TODO
 
 - Upgrade to Grails 3.0
+- Java 1.8 compile errors? 
 - API Blueprint
 
 ## Getting set up
